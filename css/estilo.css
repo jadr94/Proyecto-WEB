@@ -1,0 +1,30 @@
+/*html= estructura + contenido
+html + diseño = css3
+css = hojas de estilo en cascada 
+ 	= maquetado = maquetación
+
+ 1. Pseudo-elementos
+ 	contiene atributos
+ 2. Etiqueta <etiqueta>
+ 	contiene atributos
+ 3. identificadores
+ 	contiene atributos
+ 4. clases
+ 	contiene atributos
+ 5. elementos de responsive design
+ 	(diseño adaptativo)
+ 	contiene atributos
+
+ todos ellos en orden alfabeticos 
+ tanto elementos como atributos*/
+
+ body{
+ 	/*atributo:valor;*/
+ 	background: blue; /*color de fondo*/
+ 	/*background: rgb(255,0,0.4);*/
+ 	color: white; /*color de la letra*/
+ 	font-size: 16px;/*tamaño de la fuente*/
+ 	max-width: 1024px; /*ancho de pagina*/
+
+
+ }
