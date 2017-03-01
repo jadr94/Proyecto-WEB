@@ -25,6 +25,26 @@ css = hojas de estilo en cascada
  	color: white; /*color de la letra*/
  	font-size: 16px;/*tamaño de la fuente*/
  	max-width: 1024px; /*ancho de pagina*/
+ 	border:1px solid green;
+ 	margin: 0px auto;
 
-
+ }
+ header{
+ 	border:1px solid red;
+ 	text-align: center;
+ }
+ header img{
+ 	float: right; 
+ 	width: 90px
+    margin: -10px 210px 0px 0px ;
+ }
+ header nav ul li{
+ 	color: black;
+ 	background: yellow;
+ 	padding: 5px 10px;
+ 	margin:0px 10px 0px 10px ;
+ 	border: 1px solid black;
+ 	display: inline-block;
+ 	width: 84px;
+ 	displa: inline-block;
  }
