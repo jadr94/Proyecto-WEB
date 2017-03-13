@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset= "UTF-8">
+	<head>
+		<title>	
+			Uso de formularios
+		</title>
+	</head>
+<body>
+	Formulario: Contenedor que sirve para encapsular métodos de entrada de datos del usuario. <br>
+	En el formulario se puede <br>
+	<ol>
+		<li>Capturar datos</li>
+		<li>Validar lo que se ingresa</li>
+		<li>Enviar a proceso</li>
+		<li>Reiniciar la captura</li>
+	</ol>
+	<form action="procesa.html" method="post">
+		
+		<input type="text" name="nombre" placeholder="Nombre" title="Nombre de la persona" pattern="[a-zA-Z]{6}" required="Complete el campo">
+		
+		<input type="text" name="ncontrol" placeholder="Número de control" title="Número de control de estudiante" required="Complete el campo">
+		
+		<input type="number" name="promedio" placeholder="Promedio" title="Promedio hasta el semestre anterior" required="Complete el campo">
+
+		<input type="date">
+		<input type="color">
+		<input type="email">
+
+		<input type="password" name="Clave" placeholder="Ingresa Contraseña" required="">
+		
+		<input type="submit" name="Enviar">
+		<input type="reset" name="Borrar Datos">
+	</form>
+
+</body>
+</html>
