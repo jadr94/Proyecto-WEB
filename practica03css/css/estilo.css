@@ -1,0 +1,32 @@
+body {
+	font-size: 16px; /*1em*/
+	margin: 0 auto; /*Centramos el Body*/
+	max-width: 1078px; /*Empresa-Cliente*/
+	min-width: 1078px; /*Devido a las imagenes flotantes debe de aber un minimo */
+}
+header nav {
+	margin-left: 220px;
+    /*text-align: center;*/
+}
+
+header nav ul{
+	background: orange;
+}
+header nav ul li{
+	color: gray;
+	display: inline-block;
+	font-size: 1em;
+	margin-right: 10px;
+	/*text-decoration: underline;*/ /*subrayar la palabra */
+}
+#red1,#red2,#red3{
+	margin-top: 15px;
+	margin-right: 10px;
+	float: right;
+}
+.mithemaenhtml5{
+	font-weight: bold;
+	color: gray;
+
+
+}
