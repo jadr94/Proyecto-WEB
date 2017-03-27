@@ -1,32 +1,161 @@
 body {
 	font-size: 16px; /*1em*/
+	font-family: 'Roboto', sans-serif;
 	margin: 0 auto; /*Centramos el Body*/
-	max-width: 1078px; /*Empresa-Cliente*/
-	min-width: 1078px; /*Devido a las imagenes flotantes debe de aber un minimo */
+	max-width: 1024px; /*Empresa-Cliente*/
 }
 header nav {
+
 	margin-left: 220px;
     /*text-align: center;*/
 }
 
-header nav ul{
+header nav{
+
 	background: orange;
+	margin-left: auto;
+	border-radius: 5px;
+	margin-bottom: 15px;
+	/*margin-bottom: -15px;sube seccion*/
+	padding: .02px 0px .02px 0px;
+	width: 99.9%;
 }
 header nav ul li{
-	color: gray;
+	color: white;
 	display: inline-block;
 	font-size: 1em;
-	margin-right: 10px;
+	font-weight: bold;
+	margin-right: 50px;
+	margin-left: -30px;
 	/*text-decoration: underline;*/ /*subrayar la palabra */
 }
+body{
+	border: 1px solid green;
+}
+
+#logo{
+
+	margin-left: 15px;
+}
+
 #red1,#red2,#red3{
 	margin-top: 15px;
 	margin-right: 10px;
 	float: right;
 }
-.mithemaenhtml5{
+#mithemaenhtml5{
+	font-size: 1.65em;
 	font-weight: bold;
 	color: gray;
+	margin-left:15px;
+
+}
+#primerseccion article{
+	
+	display: inline-block;
+
+}
+#buscador{
+	position: relative;
+	top: 50px;
+
+}
+#categoria{
+	position: relative;
+	top: 100px;
+}
+#FEATURED{
+	margin-left: 25px;
+	height: 310px;
+	width: 640px;
+}
+#search{
+position: relative;
+	right: 10
+	top: 70px;
+}
+#go{
+position: relative;
+	top: 70px;
+}
+
+#art01secc01{
+	
+	display: inline-block;
+	
+	height: 610px;
+	width: 315px;
+
+}
+#art01secc01 article{
+	
+	position: relative;
+	left: 2px;
+	top: 20px;
+	display: inline-block;
+	margin: auto;
+}
+.encabezados{
+
+	padding: 10px 117.5px 10px 117.5px;
+	background: orange;
+	color: white;
+	border-radius: 15px;
+	font-weight: bold;
+}
+#titulodelpost{
+	margin-left: 25px; 
+color:gray;
+font-size: 1.65em;
+font-weight: bold;
+}
+#imgpost{
+	margin-left: 25px;
+	border: 7.5px solid gray;
+	height: 174px;
+	width: 164px;
+}
+#segundaseccion article{
+	border: 1px solid yellow;
+ display: inline-block;
+}
+#titulodelpost{
+	margin-left: 25px; 
+color:gray;
+font-size: 1.65em;
+font-weight: bold;
+}
+#imgpost {
+	margin-left: 25px;
+	border: 7.5px solid gray;
+	height: 174px;
+	width: 164px;
+}
+
+#art01secc02 {
+	height: 174px;
+	width: 164px;
+}
 
 
+#art02secc02 {
+	position: relative;
+	top: -10px;
+	left: 40px;
+	border: 1px solid black;
+	display: inline-block;
+	height: 180px;
+	width: 425px;
+}
+#poradmin{
+	font-size: .7em;
+	background: gray;
+	padding: 4px 232px 4px 1.5px;
+	border-radius: 5px;
+}
+#art03secc02 {
+	
+	padding-left: 15px; 
+	height: 340px;
+	width: 315px;
 }
