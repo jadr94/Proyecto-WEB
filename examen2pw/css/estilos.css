@@ -1,0 +1,121 @@
+body{
+	border: 1px solid black;
+	font-size: 16px; 
+	margin: 0 auto;
+	min-width: 1024px;
+	max-width: 1024px;
+	font-family: 'Roboto', sans-serif;
+	padding: 5px 5px 5px 5px;
+
+}
+header{
+	border-bottom: 2px dashed black;
+
+	padding-bottom: 40px;
+
+}
+header nav ul li{
+	font-weight: bold;
+	display: inline-block;
+	padding-left: -20px;
+	margin-right: 20px;
+	
+}
+section{
+	display: inline-block;
+}
+#gotoshop{
+position: relative;	
+margin-top: 200px
+margin-left:100px;
+}
+#buy{
+position: relative;
+top: 20px
+left:100px;
+}
+#titu{
+	padding: 10px 0px 15px 0px; 
+border-bottom: 2px dashed black;
+	
+}
+#titulo{
+
+	margin-top: 50px;
+	font-size: 3.8em
+}
+#sec01{
+	height: 500px;
+	vertical-align: top;
+	width: 50%;
+}
+#texto{
+	color: gray;
+
+}
+#videos{
+	display: inline-block;
+}
+#video1{
+	margin:auto;
+	width: 48%
+}
+#video2{
+	margin:auto;
+	width: 48%
+}
+#sec02{
+	margin:auto;
+
+	width: 49%;
+	height: 500px;
+}
+#bike{
+	margin:auto;
+	width: 75%;
+}
+
+#años{
+	position: relative;
+	top: -90px;
+}
+.loguitos{
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+#bikefirst{
+	margin-left: 10px; 
+}
+.foot{
+	display: inline-block;
+	width: 18%
+	font-size: .8em;
+
+}
+#foot2{
+	
+	display: inline-block;
+	font-size: .8em;
+	width: 23%
+
+}
+.subtitulos{
+	color: gray;
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+	border-bottom-width:20px;
+	border-bottom:1px solid gray;
+}
+#green{
+color: green;
+}
+#descripcion{
+	color: gray;
+	font-size: .8em;
+}
+.text{
+	color: gray;
+	font-size: .8em;
+}
+

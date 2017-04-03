@@ -1,15 +1,44 @@
 body {
-	/*background: blue;*/
+	background: red;
 	font-size: 16px; /*1em*/
 	font-family: 'Roboto', sans-serif;
 	margin: 0 auto; /*Centramos el Body*/
 	max-width: 1024px; /*Empresa-Cliente*/
+	min-width: 1024px; 
 }
-header{
+section{
+	display: inline-block;
+}
 
+
+header nav{
+	background: gray;
+	margin-top:-5px; 
+	display: inline-block;
+	width: 1024px;
+}
+header nav ul li{
+	display: inline-block;
+	float: right;
+}
+#logo{
+	background: blue;
+ 	padding: 1px 356px 1px 356px;
 }
 #seccion01{
-	width: 20%;
+	vertical-align: top;
+	border: 1px solid white;
+	width: 227px
+	
 }
-
+#example{
+	background: gray;
+}
+#panel{
+	padding-bottom: -px;
+}
+#seccion02{
+	border: 1px solid white;
+	
+}
 
