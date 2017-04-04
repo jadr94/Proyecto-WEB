@@ -1,0 +1,57 @@
+<!-- Calculadora -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+  <title>Calculadora basica</title>
+  <link rel="stylesheet" href="css/calculadora.css">
+  <script scr="js/calculadora.js"></script>
+</head>
+<body>
+
+  <h1> Calculadora Basica</h1>
+  <form action="#" name="Calculadora" id="calculadora">
+    <table>
+      <tr>
+        <td colspan=4>
+          <input type="text" size=20 value=0 name="operador1">
+        </td>
+      </tr>
+      <tr>
+        <td colspan=4>
+          <input type="text" size=20 value=0 name="operador2">
+        </td>
+      </tr>
+      <tr>
+        <td colspan=4>
+          <input type="text" size=20 value=0 name="operador3">
+        </td>
+      </tr>
+      <tr>
+          <td><input type="button" value="1" onclick="numeros(this.value)"></td>
+          <td><input type="button" value="2" onclick="numeros(this.value)"></td>
+          <td><input type="button" value="3" onclick="numeros(this.value)"></td>
+          <td><input type="button" value="4" onclick="numeros(this.value)"></td>
+      </tr>
+      <tr>
+          <td><input type="button" value="4" onclick="numeros(this.value)"></td>
+          <td><input type="button" value="5" onclick="numeros(this.value)"></td>
+          <td><input type="button" value="6" onclick="numeros(this.value)"></td>
+          <td><input type="button" value="-" onclick="operadores(this.value)"></td>
+      </tr>
+      <tr>
+          <td><input type="button" value="7" onclick="numeros(this.value)"></td>
+          <td><input type="button" value="8" onclick="numeros(this.value)"></td>
+          <td><input type="button" value="9" onclick="numeros(this.value)"></td>
+          <td><input type="button" value="*" onclick="operadores(this.value)"></td>
+      </tr>
+      <tr>
+          <td><input type="button" value="ce" onclick="borrar(this.value)"></td>
+          <td><input type="button" value="0" onclick="numeros(this.value)"></td>
+          <td><input type="button" value="=" onclick="igual(this.value)"></td>
+          <td><input type="button" value="/" onclick="operadores(this.value)"></td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
