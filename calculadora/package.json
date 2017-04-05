@@ -1,0 +1,22 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Calculadora Básica PW",
+  "main": "main.js",
+  "scripts": {
+    "start":"electron .",
+    "test": "Calculadora, basica, pw, electron"
+  },
+  "keywords": [
+    "Calculadora",
+    "basica",
+    "pw",
+    "electron"
+  ],
+  "author": "Julio A. Dautt Ramírez",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "electron-packager": "^8.6.0"
+  }
+}
