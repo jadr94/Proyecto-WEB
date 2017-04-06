@@ -4,8 +4,8 @@
   "description": "Calculadora Básica PW",
   "main": "main.js",
   "scripts": {
-    "start":"electron .",
-    "test": "Calculadora, basica, pw, electron"
+    "start": "electron .",
+    "test": "echo \"Error: no test specific\" && exit 1" 
   },
   "keywords": [
     "Calculadora",
@@ -17,6 +17,7 @@
   "license": "UNLICENSED",
   "devDependencies": {
     "electron": "^1.6.2",
-    "electron-packager": "^8.6.0"
+    "electron-packager": "^8.6.0",
+    "electron-require": "^0.3.0"
   }
 }
