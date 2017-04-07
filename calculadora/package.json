@@ -1,11 +1,11 @@
 {
   "name": "calculadora",
   "version": "1.0.0",
-  "description": "Calculadora Básica PW",
+  "description": "Calculadora Basica PW",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specific\" && exit 1" 
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "Calculadora",
@@ -13,7 +13,7 @@
     "pw",
     "electron"
   ],
-  "author": "Julio A. Dautt Ramírez",
+  "author": "C.Eduardo Bojorquez",
   "license": "UNLICENSED",
   "devDependencies": {
     "electron": "^1.6.2",
