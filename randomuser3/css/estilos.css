@@ -1,0 +1,18 @@
+body{
+	font-size: 16px;
+	text-align: center;
+}
+img{
+	border-radius: 200px;
+	width: 200px;
+}
+#sec1{
+width: 20%
+background : blue;
+
+}
+
+
+#txtNombre{
+	font-size: 2em;
+}
