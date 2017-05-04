@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-
 <html lang="es">
 <head>
-	<meta charset="utf-8">
-	<title>"Personajes de Marvel"</title>
+	<meta charset="UTF-8">
+	<title>Personajes Marvel</title>
 	<link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 	<main>
 		<article id="arriba">
-			<input type="text" size=50 id="txtpersonaje" placeholder="Personajes">
+			<input  type="text" 
+					size=50 id="txtPersonaje" 
+					placeholder="Personaje">
 			<button id="btnBuscar">Buscar</button>
+			<button id="btnPDF">Convertir a PDF</button>
+			<img src="loader.gif" id="imgLoader">
 		</article>
 		<article id="abajo">
-			<article id="abajoIzq">
+			<article id="abajoIzquierda">
 				<img src="" id="imgFoto">
 			</article>
-			<article id="abajoDer">
+			<article id="abajoDerecha">
 				<div id="txtNombre"></div>
 			</article>
-			<article id="txtDescripcion"></article>
+			<article id="txtDescription"></article>
 			<article id="txtComics"></article>
 		</article>
 	</main>
@@ -27,4 +30,4 @@
 		require('./index.js')
 	</script>
 </body>
-</html>	
+</html>

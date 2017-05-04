@@ -5,6 +5,7 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
+    "paquete":"electron-packager . MarvelApp --overwrite --asar --icon=logos.icns",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -15,9 +16,15 @@
   "author": "Julio Dautt Ramírez",
   "license": "MIT",
   "devDependencies": {
+    "asar": "^0.13.0",
     "electron": "^1.6.6",
     "electron-require": "^0.3.0",
     "jquery": "^3.2.1",
     "required": "^1.0.0"
+  },
+  "dependencies": {
+    "electron": "^1.6.6",
+    "electron-require": "^0.3.0",
+    "jquery": "^3.2.1"
   }
 }
